@@ -1,4 +1,28 @@
 
+.custome-button{
+    display: inline-block;
+    padding: 12px 35px;
+    border-radius: 50px;
+    color: #47b2e4;
+    transition: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    transition: 0.3s;
+    border: 1px solid #47b2e4;
+}
+
+.custome-button:hover {
+    background: #47b2e4;
+    color: #fff;
+}
+.brand-color{
+    color: #219DD8; 
+}
+.brand-bgcolor{
+   background-color:#219DD8 !important;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     color: #444444;
@@ -367,6 +391,7 @@ a{
 .price-card ul li{
     list-style: none;
     line-height: 40px;
+    color: #999;
 }
 
 /* contact start */
@@ -388,8 +413,11 @@ a{
 }
 
 .contact-from{
-    border-top:3px solid green;
-    border-bottom:3px solid green;
+    border-top:3px solid #219DD8;
+    border-bottom:3px solid #219DD8;
+}
+.contact-from i{
+    color:#219DD8
 }
 /* <!-- Newsletter start --> */
 .Newsletter-from{
@@ -420,10 +448,10 @@ a{
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    
     text-align: center;
     white-space: nowrap;
-    /* background-color: #e9ecef; */
+    background-color: #219DD8; 
     border: 1px solid #ced4da;
     border-radius: 20px;
 }
@@ -449,6 +477,20 @@ a{
     color: #37517e;
 }
 
+.widget-icon a{
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    color:white;
+    background-color: #219DD8;
+    margin-right: 5px;
+}
+
 /* footer start */
 footer{
     background-color: #37517E;
@@ -460,6 +502,23 @@ footer{
     text-decoration: none;
 }
 
-section{
-   
+
+.widget-icon a{
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    color:white;
+    background-color: #219DD8;
+    margin-right: 5px;
+}
+
+/* FREQUENTLY ASKED QUESTIONS */
+.accordion-header i{
+    color: #219DD8;
+    font-size: 20px;
 }
