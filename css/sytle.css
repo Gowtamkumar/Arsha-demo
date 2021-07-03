@@ -56,6 +56,10 @@ header{
     color: #37517e;
 
 }
+.about-section ul li{
+    line-height: 30px;
+    list-style: none;
+}
 .heading-section h2::before{
     content: '';
     position: absolute;
@@ -101,7 +105,7 @@ header{
    padding:10px;
    background-color: white;
    box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%);
-    padding: 30px 30px;
+    padding: 42px 30px;
     transition: all ease-in-out 0.4s;
     
 }
@@ -304,7 +308,7 @@ a{
 /* team start */
 
 .team span::after{
-    ontent: '';
+    content: '';
     position: absolute;
     display: block;
     width: 50px;
