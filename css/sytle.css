@@ -51,6 +51,10 @@ header{
     color: rgba(255, 255, 255, 0.6);
 }
 
+.banner-footer a{
+    text-decoration: none;
+}
+
 /* Client style start */
 .client img{
     max-width: 45%;
@@ -396,7 +400,7 @@ a{
 
 /* contact start */
 .icon i{
-    font-size: 30px;
+    font-size: 26px;
     padding: 10px;
 }
 
