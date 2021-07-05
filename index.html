@@ -16,54 +16,56 @@
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-
     <title>Welcome to Arsha</title>
 </head>
 
 <body>
     <header>
-        <div class="banner">
+        <div class="container-fluid fixed-top">
+            <div class="row">
+                <!-- navbar start -->
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container logoText">
+                        <a class="logo text-light" href="#">ARSHA </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse navbarCustom" id="navbarText">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#services">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#portfolio">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#team">Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#contact">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <button type="button" class="navbar-button rounded-pill">Get
+                                        Started</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!-- navbar end -->
+            </div>
+        </div>
+        <div class="banner pt-5">
             <div class="container">
                 <div class="row">
-                    <!-- navbar start -->
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <div class="container-fluid logoText">
-                            <a class="logo text-light" href="#">ARSHA </a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse navbarCustom" id="navbarText">
-                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                                    <li class="nav-item">
-                                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-light" href="#">About</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-light" href="#">Services</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-light" href="#">Portfolio</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-light" href="#">Team</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link text-light" href="#">Contact</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <button type="button" class="navbar-button rounded-pill">Get
-                                            Started</button>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                    <!-- navbar end -->
                     <div class="d-flex justify-content-center align-items-center">
                         <div class="col-md-6 banner-left" data-aos="fade-up" data-aos-delay="200">
                             <h1 class="text-light">Better Solutions For Your Business</h1>
@@ -85,6 +87,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </header>
     <main>
@@ -119,7 +122,7 @@
                 </div>
             </div>
         </section>
-        <section class="heading-section pt-5 about-section">
+        <section class="heading-section pt-5 about-section" id="about">
             <div class="container">
                 <h2 class="text-center" data-aos="fade-up">About Us</h2>
                 <div class="row mt-5" data-aos="fade-up">
@@ -292,7 +295,7 @@
                 </div>
             </div>
         </section>
-        <section class="heading-section pt-5 pb-5" style="background-color: #F3F5FA;">
+        <section class="heading-section pt-5 pb-5" id="services" style="background-color: #F3F5FA;">
             <div class="container pb-5">
                 <div class="row">
                     <h2 class="text-center" data-aos="fade-up">Services</h2>
@@ -363,7 +366,7 @@
             </div>
         </section>
         <!-- Porfolio start -->
-        <section class="heading-section container pt-4">
+        <section class="heading-section container pt-4" id="portfolio">
             <div class="filters filter-button-group">
                 <h2 class="text-center" data-aos="fade-up">Portfolio</h2>
                 <p class="text-center pb-5" data-aos="fade-up">
@@ -582,7 +585,7 @@
             <div class="isotope-pager" style="padding-top: 15px; text-align:center;">
             </div>
         </section>
-        <section class="heading-section pt-5 pb-5" style="background-color: #F3F5FA;">
+        <section class="heading-section pt-5 pb-5" style="background-color: #F3F5FA;" id="team">
             <div class="container pb-3">
                 <div class="row">
                     <h2 class="text-center" data-aos="fade-up">TEAM</h2>
@@ -828,7 +831,8 @@
                             indeed, to the
                             necessities of the flight of his is a result of something. Let there be consectetur velit.
                             Anyone whom the one with greed. And no one has to prevent a receives the rest, for the.
-                            Because this man did flee from the duties in the advantage, we realize that this is a quas.
+                            Because this man did fleetextareafrom the duties in the advantage, we realize that this is a
+                            quas.
                         </p>
                         <div class="accordion pt-4" id="accordionExample">
                             <div class="accordion-item mt-3" data-aos="fade-up">
@@ -931,7 +935,7 @@
             </div>
         </section>
         <!-- contact start -->
-        <section class="heading-section pt-5 pb-5">
+        <section class="heading-section pt-5 pb-5" id="contact">
             <div class="container pb-5">
                 <div class="row">
                     <h2 class="text-center" data-aos="fade-up">CONTACT</h2>
@@ -976,7 +980,7 @@
                                 </div>
                             </div>
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                                src="https://www.google.ccontactom/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
                                 frameborder="0" style="border:0; width: 100%; height: 307px;"
                                 allowfullscreen=""></iframe>
                         </div>
@@ -999,7 +1003,7 @@
                                 </div>
 
                                 <div class="mb-3">
-                                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="13"
                                         placeholder="Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content."></textarea>
                                 </div>
@@ -1130,6 +1134,19 @@
     <script>
         AOS.init();
 
+
+        // scroll navbar
+        var nav = document.querySelector('nav');
+
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > 100) {
+                nav.classList.add('bg-dark', 'shadow');
+
+            } else {
+                nav.classList.remove('bg-dark', 'shadow')
+            }
+        });
+        // scroll navbar end
         // Porfolio start
         $(document).ready(function () {
 
@@ -1189,15 +1206,12 @@
             function setPagination() {
 
                 var SettingsPagesOnItems = function () {
-
                     var itemsLength = $container.children(itemSelector).length;
-
                     var pages = Math.ceil(itemsLength / itemsPerPage);
                     var item = 1;
                     var page = 1;
                     var selector = itemSelector;
                     selector += (currentFilter != '*') ? '[' + filterAtribute + '="' + currentFilter + '"]' : '';
-
                     $container.children(selector).each(function () {
                         if (item > itemsPerPage) {
                             page++;
@@ -1206,7 +1220,6 @@
                         $(this).attr(pageAtribute, page);
                         item++;
                     });
-
                     currentNumberPages = page;
                 }();
 
@@ -1215,7 +1228,6 @@
                     var $isotopePager = ($('.' + pagerClass).length == 0) ? $('<div class="' + pagerClass + '"></div>') : $('.' + pagerClass);
 
                     $isotopePager.html('');
-
                     for (var i = 0; i < currentNumberPages; i++) {
                         var $pager = $('<a href="javascript:void(0);" class="pager" ' + pageAtribute + '="' + (i + 1) + '"></a>');
                         $pager.html(i + 1);
@@ -1224,10 +1236,8 @@
                             var page = $(this).eq(0).attr(pageAtribute);
                             goToPage(page);
                         });
-
                         $pager.appendTo($isotopePager);
                     }
-
                     $container.after($isotopePager);
                 }();
             }
