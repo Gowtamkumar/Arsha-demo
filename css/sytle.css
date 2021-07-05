@@ -38,22 +38,57 @@ body {
 header{
     background-color: #37517e;
 };
-/* .hero_scroll1{
-    animation: MoveUpDown 1s linear infinite;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+
+/* navbar start */
+.navbarfontSize {
+    font-size: 30px;
     
 }
-@keyframes MoveUpDown {
-    0%, 100% {
-      bottom: 0;
-    }
-    50% {
-      bottom: 100px;
-    }
-  }
- */
+
+.navbar-button {
+    display: inline-block;
+    padding: 6px 22px;
+    border-radius: 50px;
+    color: white;
+    transition: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Jost", sans-serif;
+    transition: 0.3s;
+    border: 2px solid #47b2e4;
+    background-color: #37517e;
+}
+
+.navbar-button:hover {
+    background: #47b2e4;
+    color: #fff;
+}
+
+.navbarCustom ul li{
+    margin-right: 20px;
+}
+
+.logo {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.logoText a{
+    text-decoration: none;
+}
+
+.banner-left h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+}
+
 
 
 .banner-left h1{

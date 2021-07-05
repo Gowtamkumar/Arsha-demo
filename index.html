@@ -20,24 +20,24 @@
 
     <title>Welcome to Arsha</title>
     <style>
-        .hero_scroll1{
-    /* animation: MoveUpDown 1s linear infinite; */
-    animation: MoveUpDown 3s ease-in-out infinite alternate-reverse both;
-    position: relative;
-    /* left: 0;
-    bottom: 0; */
-    
-}
-@keyframes MoveUpDown {
-    0%, 100% {
-      bottom: 0;
-    }
-    50% {
-      bottom: 10px;
-    }
-  }
+       
 
+        .hero_scroll1 {
+            animation: MoveUpDown 4s ease-in-out infinite alternate-reverse both;
+            position: relative;
+        }
 
+        @keyframes MoveUpDown {
+
+            0%,
+            100% {
+                bottom: 0;
+            }
+
+            50% {
+                bottom: 20px;
+            }
+        }
     </style>
 </head>
 
@@ -47,15 +47,15 @@
             <div class="container">
                 <div class="row">
                     <!-- navbar start -->
-                    <nav class="navbar navbar-expand-lg navbar-light ">
-                        <div class="container-fluid">
-                            <a class="navbar-brand text-light" href="#">FlexStart</a>
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="container-fluid logoText">
+                            <a class="logo text-light" href="#">ARSHA </a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
                                 aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-                            <div class="collapse navbar-collapse " id="navbarText">
+                            <div class="collapse navbar-collapse navbarCustom" id="navbarText">
                                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
                                     <li class="nav-item">
                                         <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
@@ -74,6 +74,10 @@
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link text-light" href="#">Contact</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <button type="button" class="navbar-button rounded-pill">Get
+                                            Started</button>
                                     </li>
                                 </ul>
 
@@ -99,7 +103,7 @@
                             <img src="https://bootstrapmade.com/demo/templates/Arsha/assets/img/hero-img.png" alt=""
                                 class="img-fluid ">
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
