@@ -38,6 +38,23 @@ body {
 header{
     background-color: #37517e;
 };
+/* .hero_scroll1{
+    animation: MoveUpDown 1s linear infinite;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+}
+@keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0;
+    }
+    50% {
+      bottom: 100px;
+    }
+  }
+ */
+
 
 .banner-left h1{
     margin: 0 0 10px 0;
@@ -300,6 +317,13 @@ header{
   font-size: 20px;
   padding: 10px;
   text-align: center;
+}
+
+.overlay-title p{
+    font-size: 15px;
+}
+.overlay-title{
+    line-height: 8px;
 }
 
 .grid-item:hover .overlay {
