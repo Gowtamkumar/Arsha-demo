@@ -68,10 +68,15 @@ header{
     background: #47b2e4;
     color: #fff;
 }
-
+.navbarTrasform{
+    /* background-color: #212529b8!important; */
+    background: rgba(40, 58, 90, 0.9);
+}
 .navbarCustom ul li{
     margin-right: 20px;
 }
+
+
 /* .navbarCustom .active:focus, ul li a:hover{
     color: #47b2e4 !important;
 } */
@@ -307,9 +312,16 @@ header{
     /* box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%); */
 }
 .accordion-button:not(.collapsed) {
-    color: #219DD8;
+    color: #219DD8 !important;
     background-color: white !important;
-   
+    box-shadow: none !important;
+}
+
+.accordion-button span{
+    font-family: "Poppins", sans-serif !important;
+}
+.accordion-button span strong{
+    color:#47b2e4;
 }
 
 /* servicess start */
@@ -330,6 +342,10 @@ header{
 .service-box h4 a{
     text-decoration: none;
 }
+.service-box h4 {
+    color:#47b2e4;
+}
+
 
 /* action start */
 .action-contaienr h2 {
@@ -646,6 +662,9 @@ a{
 }
 
 /* price start */
+.pricing p{
+    color: #37517e;
+}
 .price-card h4 {
     font-size: 48px;
     color: #37517e;
@@ -705,6 +724,14 @@ a{
 }
 .subscribe:hover{
     background: #2591c4;
+}
+.Newsletter h3{
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+    color: #37517e;
 }
 .Newsletter-from{
     border-bottom-left-radius: 30px!important;
@@ -842,4 +869,34 @@ footer{
 .accordion-header i{
     color: #219DD8;
     font-size: 20px;
+}
+
+/* to top button style */
+.go-top{
+    background-color: white;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    background-color:#219DD8;
+    color:white;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s;
+
+}
+.go-top.active{
+    opacity: 1;
+    pointer-events: auto;
+    bottom:32px;
+}
+html {
+    scroll-behavior: smooth;
 }
