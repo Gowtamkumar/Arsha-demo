@@ -9,9 +9,9 @@ window.addEventListener("scroll", () => {
 
 });
 
-$(document).on('click', 'ul li', function() {
-    $(this).addClass('active').siblings().removeClass('active');
-})
+// $(document).on('click', 'ul li', function() {
+//     $(this).addClass('active').siblings().removeClass('active');
+// })
 
 // const currentLocation = location.href;
 // const menuItem = document.querySelectorAll('a');

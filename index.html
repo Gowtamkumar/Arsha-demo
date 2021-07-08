@@ -22,65 +22,67 @@
 
 <body>
     <header>
-        <div class="container-fluid fixed-top">
+        <div class="container-fluid">
             <div class="row">
                 <!-- navbar start -->
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container logoText">
-                        <a class="logo text-light" href="#">ARSHA </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse navbarCustom" id="navbarText">
-                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                                <li class="nav-item">
-                                    <a class="nav-link text-light"  href="#">Home</a>
-                                </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link text-light" href="#about">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-light" href="#services">Services</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-light" href="#portfolio">Portfolio</a>
-                                </li>
+                <div class="col-md-12 col-sm-12 col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light fixed-top p-3 navbarTrasform">
+                        <div class="container logoText">
+                            <a class="logo text-light" href="#">ARSHA </a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse navbarCustom" id="navbarText">
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a class="nav-link text-light" href="#about">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="#services">Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="#portfolio">Portfolio</a>
+                                    </li>
 
-                                <li class="nav-item">
-                                    <div class="dropdown">
-                                        <a class="nav-link text-light" href="#portfolio">Drop Down <i
-                                                class="fas fa-chevron-down"></i></a>
-                                        <div class="dropdown-content">
-                                            <a href="#">Dropdown 1</a>
-                                            <a href="#">Dropdown 2</a>
-                                            <a href="#">Dropdown 3</a>
+                                    <li class="nav-item">
+                                        <div class="dropdown">
+                                            <a class="nav-link text-light" href="#">Drop Down <i
+                                                    class="fas fa-chevron-down"></i></a>
+                                            <div class="dropdown-content">
+                                                <a href="#">Dropdown 1</a>
+                                                <a href="#">Dropdown 2</a>
+                                                <a href="#">Dropdown 3</a>
+                                            </div>
                                         </div>
-                                    </div>
-                                </li>
+                                    </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link text-light" href="#team">Team</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-light" href="#contact">Contact</a>
-                                </li>
-                                <li class="nav-item">
-                                    <button type="button" class="navbar-button rounded-pill">Get
-                                        Started</button>
-                                </li>
-                            </ul>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="#team">Team</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light" href="#contact">Contact</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <button type="button" class="navbar-button rounded-pill">Get
+                                            Started</button>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </nav>
+                    </nav>
+                </div>
                 <!-- navbar end -->
             </div>
         </div>
         <div class="banner pt-5 pb-5">
             <div class="container pt-3 pb-4">
                 <div class="row">
-                    <div class="col-md-6 banner-left d-flex justify-content-center align-items-center"
+                    <div class="col-md-6 col-sm-12 col-lg-6 banner-left d-flex justify-content-center align-items-center"
                         data-aos="fade-up" data-aos-delay="200">
                         <div class="">
                             <h1 class="text-light">Better Solutions For Your Business</h1>
@@ -174,10 +176,10 @@
                 </div>
             </div>
         </section>
-        <section style="background-color: #F3F5FA; padding-bottom: 100px;">
+        <section style="background-color: #F3F5FA; padding-bottom: 100px;" class="accordin-section">
             <div class="container mt-5 pt-5">
                 <div class="row pt-5">
-                    <div class="col-md-6 why-us">
+                    <div class="col-md-6">
                         <h3 data-aos="fade-up">Eum ipsam laborum deleniti <strong>velit pariatur architecto aut
                                 nihil</strong> </h3>
                         <p data-aos="fade-up">
@@ -189,7 +191,8 @@
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button accordion" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                       <span class="accordion"> <strong>02 </strong> Non consectetur a erat nam at lectus urna duis?</span>
+                                        <span class="accordion"> <strong>02 </strong> Non consectetur a erat nam at
+                                            lectus urna duis?</span>
                                     </button>
                                 </h2>
                                 <div id="collapseOne" class="accordion-collapse collapse show"
@@ -205,7 +208,7 @@
                                 <h2 class="accordion-header" id="headingTwo">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                       <span> <strong>02 </strong> Feugiat scelerisque varius morbi enim nunc?</span>
+                                        <span> <strong>02 </strong> Feugiat scelerisque varius morbi enim nunc?</span>
                                     </button>
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
@@ -238,17 +241,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 d-flex justify-content-center align-items-center" data-aos="zoom-in">
+                    <div class="col-md-6 d-flex justify-content-center align-items-center accrodion-img" data-aos="zoom-in">
                         <img src="https://bootstrapmade.com/demo/templates/Arsha/assets/img/why-us.png" alt=""
-                            class="img-fluid">
+                            class="img-fluid text-center">
                     </div>
                 </div>
             </div>
         </section>
-        <section>
+        <section class="skill-left">
             <div class="container pt-5 pb-5">
                 <div class="row">
-                    <div class="col-md-6 d-flex justify-content-center align-items-center" data-aos="fade-right">
+                    <div class="col-md-6 d-flex justify-content-center align-items-center skill-left-img" data-aos="fade-right">
                         <img src="https://bootstrapmade.com/demo/templates/Arsha/assets/img/skills.png" alt=""
                             class="img-fluid">
                     </div>
@@ -325,7 +328,7 @@
                         ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
                     </p>
                     <div class="col-md-3">
-                        <div class="service-box" data-aos="zoom-in">
+                        <div class="service-box text-center" data-aos="zoom-in">
                             <i class="fab fa-dribbble brand-color"></i><br />
                             <h4 class="mt-3"><a href="#">Lorem Ipsum</a></h4>
                             <p class="mt-3">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi
@@ -333,7 +336,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="service-box" data-aos="zoom-in">
+                        <div class="service-box text-center" data-aos="zoom-in">
                             <i class="far fa-file-alt brand-color"></i><br />
                             <h4 class="mt-3"><a href="#">Sed ut perspici</a></h4>
                             <p class="mt-3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
@@ -341,7 +344,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="service-box" data-aos="zoom-in">
+                        <div class="service-box text-center" data-aos="zoom-in">
                             <i class="fas fa-tachometer-alt brand-color"></i><br />
                             <h4 class="mt-3"><a href="#">Magni Dolores</a></h4>
                             <p class="mt-3">
@@ -350,7 +353,7 @@
                         </div>
                     </div>
                     <div class="col-md-3">
-                        <div class="service-box" data-aos="zoom-in">
+                        <div class="service-box text-center" data-aos="zoom-in">
                             <i class="fas fa-layer-group brand-color"></i><br />
                             <h4 class="mt-3"><a href="#">Nemo Enim</a></h4>
                             <p class="mt-3">
@@ -1116,7 +1119,7 @@
             <div class="row ">
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="footer-left">
-                        Copyright Arsha. All Rights Reserved
+                        Copyright <strong>Arsha</strong>. All Rights Reserved
                     </div>
                     <div class="footer-right">
                         Designed by <a href="">Gowtam Kumar</a>
