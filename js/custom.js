@@ -9,15 +9,20 @@ window.addEventListener("scroll", () => {
 
 });
 
-// $(document).on('click', 'ul li', function() {
-//     $(this).addClass('active').siblings().removeClass('active');
-// })
 
-// const currentLocation = location.href;
-// const menuItem = document.querySelectorAll('a');
-// const menuLength = menuItem.length;
-// for (let i = 0; i<menuLength; i++) {
-//     if (menuItem[i].href === currentLocation) {
-//         menuItem[i].className = "active"
-//     }
-// }
+// Active Menu start 
+// Get the container element
+var btnContainer = document.getElementById("navbarText");
+
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsByClassName("nav-link");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+// Active Menu end
